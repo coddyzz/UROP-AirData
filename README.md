@@ -2,7 +2,7 @@
 
 # Initiation
 
-npm install
+$ npm install
 
 # Run
 
