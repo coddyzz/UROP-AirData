@@ -1,0 +1,56 @@
+{
+  "name": "urop",
+  "version": "1.1.0",
+  "description": "air transport data visualisation using cesium.js",
+  "main": {
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/coddyzz/UROP-air-DataVis"
+    }
+  },
+  "scripts": {
+    "dev": "webpack-serve webpack.config.js",
+    "build": "webpack-cli"
+  },
+  "author": "zhou zhi",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "6.26.0",
+    "babel-eslint": "8.2.3",
+    "babel-loader": "7.1.4",
+    "babel-preset-env": "1.6.1",
+    "connect-history-api-fallback": "1.5.0",
+    "css-loader": "0.28.11",
+    "eslint": "4.19.1",
+    "eslint-config-enough": "0.3.0",
+    "eslint-loader": "2.0.0",
+    "file-loader": "1.1.11",
+    "html-loader": "0.5.5",
+    "html-webpack-plugin": "3.2.0",
+    "koa-connect": "2.0.1",
+    "style-loader": "0.20.3",
+    "url-loader": "1.0.1",
+    "webpack-cli": "2.0.14",
+    "webpack-dev-server": "2.9.7",
+    "webpack-serve": "0.3.1"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "enough",
+    "env": {
+      "browser": true,
+      "node": true
+    }
+  },
+  "dependencies": {
+    "csvtojson": "^2.0.8",
+    "papaparse": "^4.6.2",
+    "webpack": "^4.26.1",
+    "webpack-dev-middleware": "^3.4.0",
+    "yarn": "^1.12.3"
+  }
+}
