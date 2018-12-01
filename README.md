@@ -6,6 +6,6 @@ $ npm install
 
 # Run
 
-run with any command prompt
-$ yarn run dev
+run with any command prompt <br>
+$ yarn run dev <br>
 should be running at localhost 8080
