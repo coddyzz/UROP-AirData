@@ -1,13 +1,14 @@
 # UROP air DataVis
 
-# Initiation
+## Initiation
 
-$ npm install
+### $ npm install
 
-# Run
+## Run
 
 run with any command prompt <br>
-$ yarn run dev <br>
+### $ yarn run dev <br>
 should be running at localhost 8080
 
-<image src = 'demo.png'> 
+#### Example
+<image src = './democode.PNG'> 
