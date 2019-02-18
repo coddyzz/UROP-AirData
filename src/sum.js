@@ -160,7 +160,7 @@ fetch('../data/routeCoHaneda.csv')
     // Just a different approach
 
         //Load Data
-        var geocachePromise = Cesium.GeoJsonDataSource.load("../data/parsed.geojson")
+        var geocachePromise = Cesium.GeoJsonDataSource.load("../data/waypoint.geojson")
 
         // Add geocache billboard entities to scene and style them
         geocachePromise.then(function(dataSource) {
